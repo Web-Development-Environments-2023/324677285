@@ -1,7 +1,133 @@
+body
+{
+	background-color: #edd4f3;
+}
+
 #menu
 {
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 20%;
+	background-color: #d0bcf3;
 }
+
+table, tr, td {
+	border: 1px thick rgb(23, 103, 121);
+	border-collapse: collapse;
+	padding: 15px;
+  }
+td:hover {background-color: #e0d5fa;}
+
+#logo
+{
+	padding: 15px;
+}
+
+#about
+{
+	padding-top: 200px;
+	background-image: url(media/clouds.gif)
+}
+
+#photos
+{
+	background-color: rgb(255, 255, 255);
+}
+
+#playlist
+{
+	background-image: url(media/clouds.gif)
+}
+
+#like
+{
+	background-color: rgb(255, 255, 255);
+	align-content: center;
+}
+
+#qrcoder
+{
+	background-image: url(media/clouds.gif)
+}
+
+#qa
+{
+	background-color: rgb(254, 254, 255);
+}
+
+#contact
+{
+	background-image: url(media/clouds.gif)
+}
+
+h2
+{
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+
+}
+p{
+	font-style: italic;
+	text-align: center;
+}
+
+section
+{
+	align-content: center;
+}
+  
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+#button_send_email:hover{
+	background-color: #edd4f3;
+	border-style:ridge;
+	font-size: large;
+	align-content: center;
+	text-decoration: underline;
+}
+
+#menu_table{
+	height: auto;
+	width: 100%;
+	background-color: white;
+}
+
+a:link
+{
+	color: rgb(212, 140, 228);
+	
+	text-align: center;
+}
+a:visited{
+	color: rgb(70, 4, 90);
+}
+
+
+a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.menue_links{
+	padding: 15px 25px;
+}
+
