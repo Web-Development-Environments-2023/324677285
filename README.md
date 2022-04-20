@@ -11,9 +11,6 @@ ID: 324677285
 
 Link to the website: https://web-development-environments-2022.github.io/assignment1-donchkat/
 
-
-https://web-development-environments-2022.github.io/assignment1-donchkat/
-
 # Anna's Website ❤️
 
 
