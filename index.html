@@ -46,19 +46,60 @@
 
   </section>
 <section id="about" class="section">
-<br/>
-<br/>
+
+<section id="inner_about" class="section">
 <h2>About Me:</h2>
 <p>
-  Hello, my name is Anna, I'm 73 years old. 
-  Originally from Ukraine but today I live in Beer Sheva.
+  <b>
+    Hello, my name is Anna, I'm 73 years old. 
+    Originally from Ukraine but today I live in Beer Sheva.
+  </b>
 </p>
 <p>
-  My hobbies are: Gardening, cooking, painting and hanging out with my family.
+  <b>
+    My hobbies are: Gardening, cooking, painting and hanging out with my family.
+  </b>
 </p>
 <p>
-  I have two children, and 4 grandkids. Through my life I worked as a suwer, menicurist and at a factory for clothes.
+  <b>
+    Through my life
+    I worked as a manicurist, then when I got older I went to work
+    at the construction.
+  </b>
 </p>
+<p>
+  <b>
+  Back then the soviet union (~1960~) was at it's best period, 
+    so all the young people from the villeges were helping in the construction
+    of the new cities.
+  </b>
+</p>
+<p>
+  <b>
+    I have two children, and 4 grandkids. 
+  </b>
+ </p>
+ <p>
+   <b>
+    When I had my first child, I started to work at the ironing factory.
+   
+    Even though I worked hard, I still don't think
+    I worked as hard as my parents.
+   </b>
+ </p>
+ <h2>
+  Inspired me...
+</h2>
+ <p>
+   <b>
+    My mother and father are the people I admired all my life.
+    We lived in the village, so there was a big houshold to maintain. 
+    My parents would wake up before the sun, and go to sleep after the sun has set.
+    My mother would wake up every morning at 3 AM, cook us food and then go to work.
+    My father would wake up early and go to work at the field, take care of the cows, 
+    the goat and the chickens. I always admired them for their hard work.
+   </b>
+ </p>
 <br/>
 <br/>
 <br/>
@@ -72,6 +113,7 @@
 <br/>
 <br/>
 <br/>
+</section>
 </section>
 
 <section id="photos" class="section">
@@ -206,7 +248,7 @@
 <h2>Give Me a Like</h2>
 <br/>
 <p>
-  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2021.github.io%2Fassignment1-donchkat%2F&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId" width="174" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2022.github.io%2Fassignment1-donchkat%2F&width=174&layout=button_count&action=like&size=large&share=true&height=46&appId" width="174" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </p>
 <br/>
 <br/>
@@ -248,7 +290,7 @@
 <br/>
 <h2>Q&A</h2>
 <br/>
-<p>
+<p style="background-color:rgb(227, 179, 246)">
   <table id="qa_table" style="border-style: outset; width: auto; height: 200;">
     <tr>
       <td style="border-style: outset;"> 
@@ -347,12 +389,14 @@
 <h2>Contact Me</h2>
 <br/>
 <p>
-  <span style="background-color: #fbfafc">
-    If you'd like to chat with me, Send an email to my address:
+  <span style="background-color:rgba(255,255,255,0.5);">
+    <b>
+      If you'd like to chat with me, Send an email to my address:
+    </b>
   </span>
 </p>
 <p>
-  <span style="background-color: #fbfafc">
+  <span style="background-color:rgba(255,255,255,0.5);">
     <u >
         anna49@gmail.com
     </u>
@@ -360,27 +404,26 @@
 </p>
 <p>
     <!-- The button used to copy the text -->
-    <button onclick="myFunction()">Copy mail address</button>
+    <button id="mail_copy_button" onclick="myFunction()">Copy mail address</button>
 </p>
 <br/>
 <br/>
 <br/>
-<form id="contacts-form">
-  <ul class = "rounded">
-      <li style = "color: #FFFFFF">Full Name:<input maxlength="50" type="text" placeholder = "J. Doe" name = "signature" id = 'signature' /></li>
-      <li style = "color: #FFFFFF">E-mail:<input type="text" maxlength="50" placeholder = "example@example.com" name = "address" id = 'address' /></li>
-      <li style = "color: hsl(0, 0%, 100%)">Message:<input style="height: 100px; width: 500px;" maxlength="500" type = "text" placeholder = "Message" name = "message" id = 'message' /></li>
-      <li style="color: #FFFFFF">Emoji:
+<form  id="contacts-form">
+  <ul class = "rounded" style="  white-space:nowrap; background-color:rgba(255,255,255,0.5);">
+      <li style = " color: black">Send To:<input type="text" maxlength="50" placeholder = "example@example.com" name = "address" id = 'address' /></li>
+      <li style = " color: black">Subject:<input type="text" maxlength="50" placeholder = "subject..." name = "subject" id = 'subject' /></li>
+      <li style = "color: black">Message:<input style="height: 100px; width: 500px;" maxlength="500" type = "text" placeholder = "Message" name = "message" id = 'message' /></li>
+      <li style="color: black">Emoji:
         <select id="selectEmoji"> 
           <option value=""></option>
           <option value="😀">😀</option>
           <option value="😍">😍</option>
           <option value="😘">😘</option>
           <option value="💗">💗</option>
-          
         </select></li>
-      
-        <a id="button_send_email" onclick="javascript:window.location='mailto:'+document.getElementById('address').value+'?subject='+document.getElementById('signature')+'&body='+document.getElementById('message').value+document.getElementById('selectEmoji').value">Click here to send</a>
+        <br/>
+        <a id="button_send_email" onclick="javascript:window.location='mailto:'+document.getElementById('address').value+'?subject='+document.getElementById('subject').value+'&body='+document.getElementById('message').value+document.getElementById('selectEmoji').value">Send</a>
   </ul>
 </form>
 <br/>
@@ -399,6 +442,7 @@
 <br/>
 </section>
 
+<!-- copy to clipboard -->
 <script>
   function myFunction() {
     /* Copy text into clipboard */
@@ -413,9 +457,6 @@
 <!-- addind jquery -->
 <script src="jquery-1.10.2.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<!-- facebook like script -->
-<!-- <script async defer crossorigin="anonymous" src="https://web-development-environments-2021.github.io/assignment1-donchkat/" nonce="sFPLPrZL"></script> -->
 
 <!-- given code  -->
 <script type="text/javascript">
