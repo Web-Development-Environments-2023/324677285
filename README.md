@@ -1,1 +1,28 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7599647&assignment_repo_type=AssignmentRepo)
+### assignment1-donchkat
+
+
+## Details:
+
+Name: Kateryna Donchenko
+
+
+ID: 324677285
+
+
+Link to the website: https://web-development-environments-2021.github.io/assignment1-donchkat/
+
+# Anna's Website ❤️
+
+
+I built this webpage for my grandmother who is 73 years old and not a fan of computers or technology.
+
+
+In the webpage you can meet Anaa, read about her, see her photos and hear what kind of music she likes.
+
+
+Also you can contact her by sending her an 📧 E-mail, and she can do the same to answer you.
+
+
+If you liked her page, please put your thunmb up and like the page! 
+
+
