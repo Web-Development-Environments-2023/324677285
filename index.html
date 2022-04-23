@@ -8,6 +8,7 @@
 
 </head>
 <body>
+  <button onclick="topFunction()" id="up_button" title="Go to top">Top</button>
 <section id="menu">
   <img id="logo" src="media\newL.png" width="180" height="100">
   <table id="menu_table">
@@ -445,6 +446,29 @@
 <br/>
 <br/>
 </section>
+
+<script>
+  //Get the button:
+mybutton = document.getElementById("up_button");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollIntoView({
+    behavior: "smooth",
+  });
+}
+</script>
 
 <!-- copy to clipboard -->
 <script>
