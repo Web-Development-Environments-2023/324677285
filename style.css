@@ -7,7 +7,7 @@ body
 {
 	position: fixed;
 	width: 100%;
-	height: 20%;
+	height: 23%;
 	background-color: #d0bcf3;
 	align-content: center;
 }
@@ -101,8 +101,9 @@ div.desc {
 }
 
 #button_send_email{
-	background-color: rgba(147, 102, 245, 0.5);
+	background-color: rgb(217, 178, 229);
 	border-style: double;
+	font-size: large;
 	border-color: rgb(29, 28, 28);
 	color: black;
 	padding: 5px;
@@ -115,6 +116,7 @@ div.desc {
 	font-size: large;
 	align-content: center;
 	text-decoration: underline;
+	border-style: double;
 	
 }
 
@@ -122,6 +124,7 @@ div.desc {
 	height: auto;
 	width: 100%;
 	background-color: white;
+	font-family: cursive;
 }
 
 .td_menue:hover{
@@ -150,6 +153,7 @@ a:hover {
 	align-self: center;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: cursive;
 }
 
 
@@ -172,7 +176,7 @@ a:hover {
 
 
 
-/* Style inputs with type="text", select elements and textareas */
+/* Email sending form */
 input[type=text], select, textarea {
 	width: 80%; /* Full width */
 	padding: 12px; /* Some padding */ 
@@ -182,7 +186,8 @@ input[type=text], select, textarea {
 	margin-top: 6px; /* Add a top margin */
 	margin-bottom: 16px; /* Bottom margin */
 	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+	
+}
   
   
   /* Add a background color and some padding around the form */
@@ -190,4 +195,4 @@ input[type=text], select, textarea {
 	border-radius: 5px;
 	background-color: #f2f2f2;
 	padding: 20px;
-  }
+}
